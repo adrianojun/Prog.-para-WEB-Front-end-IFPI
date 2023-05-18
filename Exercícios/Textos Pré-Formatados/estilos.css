@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+body{
+     
+    font-family: arial, 'Tilt Neon', 'cursive';
+    font-size: 16px;
+    background-image: linear-gradient(to right,#b3cce2 , #D9CCC1);  
+    
+}
+
+
+h1{
+   font-size: 3rem;
+   letter-spacing: .5rem;
+   text-align: center;
+   background: #005eb0;
+   color: #D9CCC1;
+}
+
+
+h2{
+   font-size: 1.5rem;
+   background: #005eb0;
+   color: #D9CCC1;
+}
+
+
+p{
+  font-size: 1.0rem;
+  color: #024059;
+}
+
+
+cite{
+   display: block;
+   text-align: left;
+}
+
+blockquote{
+   font-family: 'Tilt Neon', 'cursive';
+   text-align: justify;
+   line-height: .1,5rem;
+}
