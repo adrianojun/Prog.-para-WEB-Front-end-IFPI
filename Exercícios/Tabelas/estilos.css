@@ -1,0 +1,34 @@
+h1{
+    text-align: center;
+}
+
+th{
+    background-color:black;
+    color:red;
+    
+}
+
+td{
+    background-color:rgb(233, 153, 32);
+    color: rgb(28, 8, 146);
+    text-align: center;
+}
+
+div table{
+    width: 400px;
+    height: 400px;
+}
+
+div td{text-align: left;}
+
+.damas{
+
+    width: 400px;
+    height: 400px;
+    
+    
+}
+
+.cor1{background-color: black;}
+.cor2{background-color: rgb(255, 255, 255);
+}
