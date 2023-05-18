@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Componentes para Formulário</h1>
+
+        <h2>Componetes Antigos</h2>
+
+
+
+            <h3>radio</h3>
+                
+                <p>O componente radio é usado para criar botões de opção em formulários HTML. Ele permite aos usuários selecionar apenas uma opção em um grupo de opções mutuamente exclusivas. Veja o exemplo abaixo:</p>
+
+                <p>Selecione abaixo o time que não possui mundial.</p>
+                   
+                <div class="radio">
+                    <label for="Palmeiras">
+                      <input type="radio" id="Palmeiras" name="escolha" value="Palmeiras"> Palmeiras
+                    </label>
+                                      
+                    <label for="Real Madrid">
+                      <input type="radio" id="Real Madrid" name="escolha" value="Real Madrid"> Real Madrid
+                    </label>
+                  
+                    <label for="São Paulo">
+                      <input type="radio" id="São Paulo" name="escolha" value="São Paulo"> São Paulo
+                    </label>
+                  
+                    <label for="Milan">
+                      <input type="radio" id="Milan" name="escolha" value="Milan"> Milan
+                    </label>
+                </div>
+                  
+                              
+
+
+
+            <h3>reset</h3>
+
+
+        <h2>Componetes Novos</h2>
+
+
+            <h3>datalist</h3>
+                <p>O componente datalist define um conjunto de opções que podem ser associadas a um campo de entrada de texto. Essas opções são exibidas como sugestões ao usuário enquanto ele digita no campo de entrada. O usuário pode selecionar uma das opções sugeridas ou continuar digitando seu próprio valor. Veja o exemplo abaixo:</p>
+
+                  <label for="Melhores Jogadores"> Escolha um jogador:</label>
+                  <input list="Melhores Jogadores" id="Jogadores-escolhidos" name="jogadores">
+
+                  <datalist id="Melhores Jogadores">
+                      <option value="Gabigol"></option>
+                      <option value="Arrascaeta"></option>
+                      <option value="Pedro"></option>
+                      <option value="Leo Pereira"></option>
+                      <option value="Cebolinha"></option>
+                  </datalist>
+
+
+            <h3>date</h3>
+                <p>Claro! O componente date é usado para criar um campo de entrada de data em formulários HTML. Ele permite que os usuários selecionem uma data usando um calendário ou digitem diretamente no campo.</p>
+
+                    <label for="data-nascima">Selecione sua data de nascimento:</label>
+                    <input type="date" id="data-nascimento" name="data-nascimento">
+
+        
+
+            
+             
+
+
+
+
+
+
+    
+</body>
+</html>
